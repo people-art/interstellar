@@ -1,0 +1,106 @@
+/* Custom Sci-Fi Theme for Interstella */
+
+body {
+  color: #ffffff;
+  background-color: #000428;
+  background-image: 
+    radial-gradient(2px 2px at 20px 30px, #eee, transparent),
+    radial-gradient(2px 2px at 40px 70px, rgba(255,255,255,0.8), transparent),
+    radial-gradient(1px 1px at 90px 40px, #fff, transparent),
+    radial-gradient(1px 1px at 130px 80px, rgba(255,255,255,0.6), transparent),
+    radial-gradient(2px 2px at 160px 30px, #ddd, transparent);
+  background-repeat: repeat;
+  background-size: 200px 100px;
+  animation: stars 20s linear infinite;
+  min-height: 100vh;
+}
+
+@keyframes stars {
+  from { transform: translateY(0px); }
+  to { transform: translateY(-100px); }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Orbitron', monospace;
+  color: #00d4ff;
+  text-shadow: 0 0 10px #00d4ff;
+}
+
+a {
+  color: #00d4ff;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #ffffff;
+  text-shadow: 0 0 5px #00d4ff;
+}
+
+.navbar-brand {
+  text-shadow: 0 0 10px #00d4ff;
+}
+
+.nav-link {
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  transform: scale(1.05);
+  text-shadow: 0 0 5px #00d4ff;
+}
+
+.card {
+  background: rgba(0, 0, 0, 0.7);
+  border: 1px solid #00d4ff;
+  box-shadow: 0 0 20px rgba(0, 212, 255, 0.3);
+}
+
+.btn-primary {
+  background: linear-gradient(45deg, #00d4ff, #004e92);
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 212, 255, 0.5);
+}
+
+.btn-primary:hover {
+  box-shadow: 0 0 20px rgba(0, 212, 255, 0.8);
+  transform: translateY(-2px);
+}
+
+/* Particle animation for cosmos effect */
+.particles {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.particle {
+  position: absolute;
+  background: #fff;
+  border-radius: 50%;
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px) rotate(0deg); opacity: 0; }
+  50% { transform: translateY(-20px) rotate(180deg); opacity: 1; }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .navbar-nav {
+    text-align: center;
+  }
+  body {
+    background-size: 150px 75px;
+  }
+}
+
+/* Accessibility high contrast mode */
+@media (prefers-contrast: high) {
+  body { background-color: #000; color: #fff; }
+  a { color: #fff; }
+}

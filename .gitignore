@@ -1,0 +1,19 @@
+# Dependencies
+/.bundle
+/.jekyll-cache
+/Gemfile.lock
+/node_modules/
+/vendor/
+
+# Output
+/_site
+/.jekyll-metadata
+
+# Temporary
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db

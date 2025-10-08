@@ -1,0 +1,33 @@
+title: Interstella Project
+description: Exploring AGI through Semantic Traversals in Token Cosmos
+baseurl: ""
+url: "https://interstella.ai-avtar.org"
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
+paginate: 5
+paginate_path: /page:num/
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Zhang Jialin"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+collections:
+  demos:
+    output: true
+    permalink: /demos/:path/
+exclude:
+  - Gemfile
+  - Gemfile.lock
