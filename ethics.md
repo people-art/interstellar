@@ -37,6 +37,7 @@ author: Zhang Jialin
       <div class="col-md-6">
         <h4>Computational and Accessibility Barriers</h4>
         <p>High-scale simulations require resources. We open-source tools for broader access while advocating sustainable AI.</p>
+      </div>
     </div>
   </section>
 
@@ -52,7 +53,7 @@ author: Zhang Jialin
   </section>
 
   <section class="text-center mb-5">
-    <a href="/paper.html#risks" class="btn btn-primary mr-3">Read Paper's Risks Section</a>
-    <a href="https://github.com/people-art/interstella/issues" class="btn btn-primary">Discuss on GitHub</a>
+    <a href="https://github.com/people-art/interstella/issues" class="btn btn-primary mr-3">Discuss Risks on GitHub</a>
+    <a href="https://github.com/people-art/interstella/issues" class="btn btn-primary">Contribute to Safety</a>
   </section>
 </div>

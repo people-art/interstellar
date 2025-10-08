@@ -1,8 +1,6 @@
 nav:
   home: 首页
   research: 研究
-  demonstrations: 演示
-  paper: 论文
   about: 关于
 
 site:
@@ -23,14 +21,3 @@ pages:
     probabilistic: 概率可达性
     bridge: 离散-连续桥接
     pipeline: 工程流水线
-  paper:
-    title: Interstella 论文
-    download: 下载
-    outline: 论文大纲
-    citations: 引用
-    updates: 出版更新
-  demos:
-    title: 交互演示
-    trajectories: Token 轨迹
-    landscapes: 不确定性景观
-    fields: 向量场

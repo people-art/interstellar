@@ -37,7 +37,7 @@ author: Zhang Jialin
     <ul>
       <li><strong>October 2025:</strong> Project launch with initial framework and open-source repo.</li>
       <li><strong>November 2025:</strong> First experiments on Qwen model traversals.</li>
-      <li><strong>December 2025:</strong> NeurIPS submission and community demos.</li>
+      <li><strong>December 2025:</strong> NeurIPS submission and community contributions.</li>
       <li><strong>Ongoing:</strong> Building the 5-layer pipeline for aligned AGI engineering.</li>
     </ul>
   </section>
@@ -80,7 +80,6 @@ author: Zhang Jialin
       <li><strong>Risks:</strong> Potential for unintended emergence; we incorporate human-in-the-loop safeguards and ethical reviews.</li>
       <li><strong>Community:</strong> Open discussions on risks like misalignment or misuse – contribute via GitHub issues.</li>
     </ul>
-    <p>Read more in our paper's "Risks and Limitations" section.</p>
   </section>
 
   <section>

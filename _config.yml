@@ -5,7 +5,7 @@ url: "https://interstella.ai-avatar.org" # the base hostname & protocol for your
 lang: en
 languages: [ "en", "zh-CN" ]
 default_lang: en
-exclude_from_localization: [ "node_modules", "vendor", ".git", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "CNAME", "assets/images", "assets/css", "assets/js", "_site", "_demos", "sitemap.xml", "feed.xml" ]
+exclude_from_localization: [ "node_modules", "vendor", ".git", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "CNAME", "assets/images", "assets/css", "assets/js", "_site", "sitemap.xml", "feed.xml" ]
 parallel_localization: true
 i18n_headers: true
 
@@ -30,12 +30,6 @@ defaults:
       layout: "default"
       author: "Zhang Jialin"
       lang: "en"
-
-# Collections
-collections:
-  demos:
-    output: true
-    permalink: /demos/:title/
 
 # Build settings
 theme: minima

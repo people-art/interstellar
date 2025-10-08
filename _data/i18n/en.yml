@@ -1,8 +1,6 @@
 nav:
   home: Home
   research: Research
-  demonstrations: Demonstrations
-  paper: Paper
   about: About
 
 site:
@@ -23,14 +21,3 @@ pages:
     probabilistic: Probabilistic Reachability
     bridge: Discrete-Continuous Bridge
     pipeline: Engineered Pipeline
-  paper:
-    title: Interstella Paper
-    download: Download
-    outline: Paper Outline
-    citations: Citations
-    updates: Publication Updates
-  demos:
-    title: Interactive Demonstrations
-    trajectories: Token Trajectories
-    landscapes: Uncertainty Landscapes
-    fields: Vector Fields

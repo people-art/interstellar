@@ -14,7 +14,6 @@ title: Home - Interstella Project
     </blockquote>
     <div class="mt-4">
       <a href="https://github.com/people-art/interstella" class="btn btn-primary btn-lg mr-3">GitHub Repository</a>
-      <a href="/assets/papers/interstella-paper-v1.pdf" class="btn btn-primary btn-lg">Download Paper</a>
     </div>
   </div>
 </div>
@@ -88,10 +87,10 @@ title: Home - Interstella Project
 <section id="cta" class="text-center mb-5">
   <div class="container">
     <h2>Ready to Explore the Cosmos?</h2>
-    <p class="lead">Dive into the research, view demonstrations, or read the paper.</p>
+    <p class="lead">Dive into the research and join the journey.</p>
     <a href="/research.html" class="btn btn-primary btn-lg mr-3">Read Research</a>
-    <a href="/demos.html" class="btn btn-primary btn-lg mr-3">View Demos</a>
-    <a href="/paper.html" class="btn btn-primary btn-lg">Read Paper</a>
+    <a href="/blog/" class="btn btn-primary btn-lg mr-3">Explore Blog</a>
+    <a href="/about.html" class="btn btn-primary btn-lg">About Us</a>
   </div>
 </section>
 
@@ -100,6 +99,6 @@ title: Home - Interstella Project
   <div class="container">
     <h3>Teaser: Token Trajectory Bundle</h3>
     <img src="/assets/images/trajectory-bundle.png" alt="Visualization of token trajectories in semantic space" class="img-fluid rounded" style="max-width: 800px; box-shadow: 0 0 20px rgba(0,212,255,0.5);" />
-    <p class="mt-3">Interactive demo coming soon – explore the paths to emergence.</p>
+    <p class="mt-3">Explore the paths to emergence through our research.</p>
   </div>
 </section>

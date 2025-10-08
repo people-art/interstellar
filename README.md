@@ -1,27 +1,35 @@
-# Interstella Project
+# Interstella: Token Cosmos Traversal for AGI Emergence
 
-## Overview
-Interstella: Token Cosmos Traversal for AGI Emergence – Engineering AGI through semantic traversals in LLMs, inspired by *Interstellar*. Explore mathematical frameworks, demos, and the path to aligned ASI.
+Engineering AGI through semantic traversals in LLMs, inspired by *Interstellar*. Explore mathematical frameworks, research, blog updates, and the path to aligned ASI.
 
-Website: [https://interstella.ai-avatar.org](https://interstella.ai-avatar.org)
+## Quick Start
 
-## Setup
 1. Clone the repo: `git clone https://github.com/people-art/interstella.git`
 2. Install dependencies: `bundle install`
 3. Run locally: `bundle exec jekyll serve`
-4. View at http://localhost:4000
+4. Visit `http://localhost:4000`
 
-## Modification Guide
-- **Add Blog Posts**: Create Markdown in `_posts/YYYY-MM-DD-title.md` with front matter (title, date, lang: en or zh-CN, categories).
-- **Update Content**: Edit .md files for pages (e.g., research.md). Use i18n in `_data/i18n/*.yml` for translations.
-- **Assets**: Add images to `/assets/images/`, styles to `/assets/css/style.css`.
-- **Themes**: Custom sci-fi CSS in style.css; extend with particles.js for animations.
-- **Multilingual**: Set lang in front matter; Polyglot handles /zh-CN/ paths.
-- **Deploy**: Push to GitHub main for Pages build.
+## Project Structure
+
+- `index.md`: Homepage with vision and key concepts.
+- `research.md`: Detailed mathematical and engineering framework.
+- `about.md` / `about.zh-CN.md`: Team and inspiration (English/Chinese).
+- `ethics.md`: AGI safety principles.
+- `blog.md`: Blog index for updates.
+- `_posts/`: Blog articles.
+- `_includes/navbar.html`: Multilingual navigation.
+- `assets/`: Images, CSS, JS.
 
 ## Contributing
-- Fork and PR for code/demos.
-- Discuss ethics in issues.
-- License: MIT
 
-For full details, see the paper and research sections. 
+- Fork and PR for code improvements.
+- Suggest ideas or report issues on GitHub.
+- Discuss ethics and alignment in issues.
+
+For full details, see the research and ethics sections.
+
+## License
+
+MIT License – see LICENSE file.
+
+© 2025 Interstella Project. Lead: Jerry Zhang. 

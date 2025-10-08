@@ -39,4 +39,4 @@ Interstella不止于优化现有LLM；我们的愿景是找到AGI/ASI的工程�
 
 #### 加入Interstella的旅程
 
-欢迎来到Interstella！这个项目开源于GitHub，我们邀请研究者、开发者参与：贡献代码、测试提示，或讨论伦理风险（如偏航误用）。未来，我们将发布完整论文和交互demo，一起穿越Token Cosmos，抵达AGI的新家园。Stay tuned——星际之旅才刚刚开始。
+欢迎来到Interstella！这个项目开源于GitHub，我们邀请研究者、开发者参与：贡献代码、测试提示，或讨论伦理风险（如偏航误用）。Stay tuned——星际之旅才刚刚开始。

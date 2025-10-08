@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "Welcome to Interstella: Traversing the Token Cosmos to AGI's Interstellar Journey"
-date: 2025-10-08
-lang: en
-categories: math code ethics
+date: 2025-10-08 12:00:00 +0800
 author: Zhang Jialin
+lang: en
+categories: [launch, vision]
 ---
 
 ### Welcome to Interstella: Traversing the Token Cosmos to AGI's Interstellar Journey
@@ -39,4 +39,4 @@ In the long term, we envision an ecosystem: open-source toolchain, community-con
 
 #### Join the Interstella Journey
 
-Welcome to Interstella! This project is open-source on GitHub, and we invite researchers and developers to participate: contribute code, test prompts, or discuss ethical risks (such as misalignment misuse). In the future, we will release full papers and interactive demos, traversing the Token Cosmos together to reach AGI's new homeland. Stay tuned – the interstellar journey has just begun.
+Welcome to Interstella! This project is open-source on GitHub, and we invite researchers and developers to participate: contribute code, test prompts, or discuss ethical risks (such as misalignment misuse). Stay tuned – the interstellar journey has just begun.
