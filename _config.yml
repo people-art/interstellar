@@ -20,7 +20,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "Zhang Jialin"
+      author: "Jerry Zhang"
       lang: "en"
   -
     scope:
@@ -28,7 +28,7 @@ defaults:
       type: "pages"
     values:
       layout: "default"
-      author: "Zhang Jialin"
+      author: "Jerry Zhang"
       lang: "en"
 
 # Build settings
