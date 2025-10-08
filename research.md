@@ -38,7 +38,7 @@ title: Research - Interstella Project
 
     <!-- Placeholder for Diagram -->
     <figure class="text-center mb-4">
-      <img src="/assets/images/manifold-leap.svg" alt="Diagram of semantic manifold traversal" class="img-fluid" style="max-width: 600px; box-shadow: 0 0 20px rgba(0,212,255,0.5);" />
+      <img src="/assets/images/tokencosmostrahectorbundle-2.png" alt="Diagram of semantic manifold traversal" class="img-fluid" style="max-width: 600px; box-shadow: 0 0 20px rgba(0,212,255,0.5);" />
       <figcaption>Figure 1: Geodesic leap across a semantic black hole.</figcaption>
     </figure>
   </section>
