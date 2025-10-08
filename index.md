@@ -87,9 +87,8 @@ title: Home - Interstella Project
 <section id="cta" class="text-center mb-5">
   <div class="container">
     <h2>Ready to Explore the Cosmos?</h2>
-    <p class="lead">Dive into the research and join the journey.</p>
+    <p class="lead">Dive into the research and learn about us.</p>
     <a href="/research.html" class="btn btn-primary btn-lg mr-3">Read Research</a>
-    <a href="/blog/" class="btn btn-primary btn-lg mr-3">Explore Blog</a>
     <a href="/about.html" class="btn btn-primary btn-lg">About Us</a>
   </div>
 </section>
