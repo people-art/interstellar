@@ -18,18 +18,6 @@ title: Home - Interstella Project
   </div>
 </div>
 
-<section id="teaser" class="mb-5">
-  <div class="container">
-    <h2 class="text-center mb-4">Latest: Launch Article</h2>
-    <div class="row">
-      <div class="col-md-8 mx-auto">
-        <p class="lead">Read our inaugural post: "欢迎来到Interstella：穿越Token Cosmos，通往AGI的星际之旅" – an introduction to the project's origins, goals, and vision.</p>
-        <a href="/blog/" class="btn btn-primary">Read the Launch Article</a>
-      </div>
-    </div>
-  </div>
-</section>
-
 <section id="vision" class="mb-5">
   <div class="container">
     <h2 class="text-center mb-4">Project Vision</h2>

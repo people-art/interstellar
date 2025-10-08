@@ -86,8 +86,6 @@ author: Zhang Jialin
     <h2>{{ site.data.i18n[site.lang].pages.about.resources }}</h2>
     <ul>
       <li><a href="https://github.com/people-art/interstella">Project GitHub Repository</a></li>
-      <li><a href="/blog/">Blog for Updates</a></li>
-      <li><a href="/ethics.html">Ethics and Safety</a></li>
     </ul>
   </section>
 </div>
