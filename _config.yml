@@ -1,7 +1,7 @@
-title: Interstella Project
-description: Exploring AGI through Semantic Traversals in Token Cosmos
+title: Interstella: Token Cosmos Traversal for AGI Emergence
+description: Engineering AGI through semantic traversals inspired by Interstellar.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://interstella.ai-avtar.org" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://interstella.ai-avatar.org" # the base hostname & protocol for your site, e.g. http://example.com
 lang: en
 languages: [ "en", "zh-CN" ]
 default_lang: en
@@ -9,7 +9,10 @@ exclude_from_localization: [ "node_modules", "vendor", ".git", "Gemfile", "Gemfi
 parallel_localization: true
 i18n_headers: true
 
-# Permalink settings for languages
+# Permalink settings
+permalink: /:categories/:year/:month/:day/:title.html
+
+# Defaults
 defaults:
   -
     scope:
@@ -17,6 +20,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+      author: "Zhang Jialin"
       lang: "en"
   -
     scope:
@@ -24,18 +28,29 @@ defaults:
       type: "pages"
     values:
       layout: "default"
+      author: "Zhang Jialin"
       lang: "en"
+
+# Collections
+collections:
+  demos:
+    output: true
+    permalink: /demos/:title/
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
   - jekyll-polyglot
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-mathjax
 
-# Exclude from processing.
-# The following items will not be processed by Jekyll.
-# The `!` prefix indicates that items marked with such a prefix take priority
-# over any other exclusions.
+paginate: 5
+paginate_path: /page:num/
+
+# Exclude from processing
 exclude:
   - .sass-cache/
   - .jekyll-cache/
