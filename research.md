@@ -25,10 +25,16 @@ title: Research - Interstella Project
     <h3>Theorems</h3>
     <p><strong>Hopf-Rinow Theorem:</strong> In a complete Riemannian manifold, geodesic completeness implies compactness of closed balls, ensuring traversable paths in the semantic cosmos.</p>
     \[ d(p, q) < \infty \implies \text{existence of minimizing geodesic} \]
-    
+
     <p><strong>Freidlin-Wentzell Large Deviations:</strong> For stochastic processes, the probability of rare events like AHA moments – the "Move 37" leaps in AlphaGo terms.</p>
     \[ \mathbb{P}(\tau_A < t) \approx \exp\left( - \inf_{\phi \in \mathcal{A}} I(\phi) \right) \]
     where \( I(\phi) \) is the rate function for rare traversals.
+
+    <!-- Trajectory Bundle Visualization -->
+    <figure class="text-center mb-4">
+      <img src="/assets/images/tokencosmostrajectorybundle.png" alt="Token trajectory bundle in semantic cosmos" class="img-fluid" style="max-width: 600px; box-shadow: 0 0 20px rgba(0,212,255,0.5);" />
+      <figcaption>Figure 2: Token trajectory bundle visualizing geodesics across the semantic manifold.</figcaption>
+    </figure>
 
     <!-- Placeholder for Diagram -->
     <figure class="text-center mb-4">
@@ -49,6 +55,12 @@ title: Research - Interstella Project
     <p>The Fisher metric induces a geometry on the parameter space:</p>
     \[ ds^2 = g_{ij} d\theta^i d\theta^j \]
     <p>Vector fields guide traversals through uncertainty landscapes, with gradients pointing toward higher-probability insights.</p>
+
+    <!-- Vector Field Visualization -->
+    <figure class="text-center mb-4">
+      <img src="/assets/images/vectorfield.png" alt="Vector fields guiding semantic traversals" class="img-fluid" style="max-width: 600px; box-shadow: 0 0 20px rgba(0,212,255,0.5);" />
+      <figcaption>Figure 3: Vector fields in the Fisher metric space directing leaps across semantic distances.</figcaption>
+    </figure>
   </section>
 
   <section id="probabilistic" class="mb-5">
@@ -56,6 +68,18 @@ title: Research - Interstella Project
     <p>Modeling token trajectories as random dynamical systems, with uncertainty quantified via entropy – the chaos of the unknown cosmos.</p>
     <p>Reachability sets defined by:</p>
     \[ \mathcal{R}(x, t) = \{ y \in M \mid \exists \text{ path from } x \text{ to } y \text{ in time } t \} \]
+
+    <!-- Uncertainty Heatmap Visualization -->
+    <figure class="text-center mb-4">
+      <img src="/assets/images/uncertaintylandscape-cross-entropyheatmap.png" alt="Cross-entropy uncertainty landscape heatmap" class="img-fluid" style="max-width: 600px; box-shadow: 0 0 20px rgba(0,212,255,0.5);" />
+      <figcaption>Figure 4: Cross-entropy heatmap visualizing uncertainty in token trajectories and reachability.</figcaption>
+    </figure>
+
+    <!-- Additional Uncertainty Landscape Variant -->
+    <figure class="text-center mb-4">
+      <img src="/assets/images/uncertsaintylanscape-2.png" alt="Variant uncertainty landscape visualization" class="img-fluid" style="max-width: 600px; box-shadow: 0 0 20px rgba(0,212,255,0.5);" />
+      <figcaption>Figure 5: Variant uncertainty landscape highlighting entropy in the Token Cosmos.</figcaption>
+    </figure>
   </section>
 
   <section id="bridge" class="mb-5">
