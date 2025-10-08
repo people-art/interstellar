@@ -10,14 +10,14 @@ title: About - Interstella Project
     <h2>Lead Author</h2>
     <div class="row">
       <div class="col-md-3">
-        <img src="{{ site.baseurl }}/assets/images/jialin-zhang.jpg" alt="Zhang Jialin" class="img-fluid rounded-circle mb-3" style="width: 200px; height: 200px; object-fit: cover;">
+        <img src="{{ site.baseurl }}/assets/images/mylogo.png" alt="Jerry Zhang" class="img-fluid rounded-circle mb-3" style="width: 200px; height: 200px; object-fit: cover;">
       </div>
       <div class="col-md-9">
-        <h3>Zhang Jialin</h3>
-        <p>PhD candidate in AI and Mathematics, specializing in geometric deep learning and emergent behaviors in LLMs. Passionate about bridging sci-fi concepts with rigorous theory.</p>
+        <h3>Jerry Zhang</h3>
+        <p>An investor and enterpreneur. Passionate about bridging sci-fi concepts with rigorous theory.</p>
         <p><strong>Affiliation:</strong> [University Placeholder]</p>
-        <p><strong>Email:</strong> jialin.zhang@example.com</p>
-        <a href="https://github.com/jialinzhang" class="btn btn-primary">GitHub Profile</a>
+        <p><strong>Email:</strong> jerry.zhang.bill@gmail.com</p>
+        <a href="https://github.com/0x1bdat" class="btn btn-primary">GitHub Profile</a>
       </div>
     </div>
   </section>
