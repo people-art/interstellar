@@ -9,21 +9,21 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/">{{ site.data.i18n[site.lang].nav.home }}</a></li>
-        <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/research{% if site.lang == 'zh-CN' %}.zh-CN{% endif %}.html">{{ site.data.i18n[site.lang].nav.research }}</a></li>
-        <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/demos{% if site.lang == 'zh-CN' %}.zh-CN{% endif %}.html">{{ site.data.i18n[site.lang].nav.demonstrations }}</a></li>
-        <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/paper{% if site.lang == 'zh-CN' %}.zh-CN{% endif %}.html">{{ site.data.i18n[site.lang].nav.paper }}</a></li>
-        <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}/about{% if site.lang == 'zh-CN' %}.zh-CN{% endif %}.html">{{ site.data.i18n[site.lang].nav.about }}</a></li>
+        <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}{% if site.lang == 'zh-CN' %}/zh-CN/{% endif %}research.html">{{ site.data.i18n[site.lang].nav.research }}</a></li>
+        <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}{% if site.lang == 'zh-CN' %}/zh-CN/{% endif %}demos.html">{{ site.data.i18n[site.lang].nav.demonstrations }}</a></li>
+        <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}{% if site.lang == 'zh-CN' %}/zh-CN/{% endif %}paper.html">{{ site.data.i18n[site.lang].nav.paper }}</a></li>
+        <li class="nav-item"><a class="nav-link" href="{{ site.baseurl }}{% if site.lang == 'zh-CN' %}/zh-CN/{% endif %}about.html">{{ site.data.i18n[site.lang].nav.about }}</a></li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="langDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             {{ site.lang | upcase }}
           </a>
           <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="langDropdown">
-            {% assign other_lang = site.languages | where: "id", "zh-CN" | first %}
-            {% if other_lang and other_lang != site.lang %}
+            {% assign other_lang = site.languages | where_exp: "l", "l != site.lang" | first %}
+            {% if other_lang %}
               {% if site.lang == 'en' %}
-                <li><a class="dropdown-item" href="/zh-CN{{ page.url }}">中文</a></li>
+                <li><a class="dropdown-item" href="/zh-CN{{ page.url | replace: '.html', '' }}.html">中文</a></li>
               {% else %}
-                <li><a class="dropdown-item" href="{{ page.url | replace: '/zh-CN', '' }}">EN</a></li>
+                <li><a class="dropdown-item" href="{{ page.url | replace: '/zh-CN', '' | replace: '.zh-CN', '' }}">EN</a></li>
               {% endif %}
             {% endif %}
           </ul>
