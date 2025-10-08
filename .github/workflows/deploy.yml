@@ -34,6 +34,7 @@ jobs:
         env:
           JEKYLL_VERSION: ~> 4.3.0
         run: |
+          bundle exec jekyll clean
           bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
           echo "github_pages_remote_url=https://github.com/${{ github.repository }}.git" >> $GITHUB_ENV
       - name: Upload artifact
