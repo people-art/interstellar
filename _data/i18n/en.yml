@@ -1,0 +1,36 @@
+nav:
+  home: Home
+  research: Research
+  demonstrations: Demonstrations
+  paper: Paper
+  about: About
+
+site:
+  title: Interstella Project
+  description: Exploring AGI through Semantic Traversals in Token Cosmos
+
+pages:
+  about:
+    title: About the Project
+    lead_author: Lead Author
+    inspiration: Project Inspiration
+    contact: Contact
+    resources: Resources
+  research:
+    title: Research Framework
+    foundations: Mathematical Foundations
+    geometric: Geometric Model
+    probabilistic: Probabilistic Reachability
+    bridge: Discrete-Continuous Bridge
+    pipeline: Engineered Pipeline
+  paper:
+    title: Interstella Paper
+    download: Download
+    outline: Paper Outline
+    citations: Citations
+    updates: Publication Updates
+  demos:
+    title: Interactive Demonstrations
+    trajectories: Token Trajectories
+    landscapes: Uncertainty Landscapes
+    fields: Vector Fields

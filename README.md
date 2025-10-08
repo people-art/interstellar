@@ -54,7 +54,7 @@ Configure your DNS provider for `interstella.ai-avtar.org`:
 MIT License - see [LICENSE](LICENSE) file.
 
 ## Contact
-Zhang Jialin - jialin.zhang@example.com
+jerry zhang - jerry.zhang.bill@gmail.com
 
 ---
 

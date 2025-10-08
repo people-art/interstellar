@@ -1,4 +1,5 @@
 ---
+lang: en
 layout: default
 title: Home - Interstella Project
 ---
@@ -72,9 +73,9 @@ title: Home - Interstella Project
   <div class="container">
     <h2>Ready to Explore?</h2>
     <p class="lead">Dive into the research, view demonstrations, or read the paper.</p>
-    <a href="{{ site.baseurl }}/research.html" class="btn btn-primary btn-lg mr-3">Read Research</a>
-    <a href="{{ site.baseurl }}/demos.html" class="btn btn-primary btn-lg mr-3">View Demos</a>
-    <a href="{{ site.baseurl }}/paper.html" class="btn btn-primary btn-lg">Read Paper</a>
+    <a href="/research.html" class="btn btn-primary btn-lg mr-3">Read Research</a>
+    <a href="/demos.html" class="btn btn-primary btn-lg mr-3">View Demos</a>
+    <a href="/paper.html" class="btn btn-primary btn-lg">Read Paper</a>
   </div>
 </section>
 
@@ -82,7 +83,7 @@ title: Home - Interstella Project
 <section class="text-center">
   <div class="container">
     <h3>Teaser: Token Trajectory Bundle</h3>
-    <img src="{{ site.baseurl }}/assets/images/teaser-trajectory.jpg" alt="Visualization of token trajectories in semantic space" class="img-fluid rounded" style="max-width: 800px; box-shadow: 0 0 20px rgba(0,212,255,0.5);">
+    <img src="/assets/images/teaser-trajectory.jpg" alt="Visualization of token trajectories in semantic space" class="img-fluid rounded" style="max-width: 800px; box-shadow: 0 0 20px rgba(0,212,255,0.5);" />
     <p class="mt-3">Interactive demo coming soon.</p>
   </div>
 </section>

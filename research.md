@@ -1,13 +1,14 @@
 ---
+lang: en
 layout: default
 title: Research - Interstella Project
 ---
 
 <div class="container">
-  <h1 class="text-center mb-5">Research Framework</h1>
+  <h1 class="text-center mb-5">{{ site.data.i18n[site.lang].pages.research.title }}</h1>
 
   <section id="foundations" class="mb-5">
-    <h2>Mathematical Foundations</h2>
+    <h2>{{ site.data.i18n[site.lang].pages.research.foundations }}</h2>
     <p>The Interstella project leverages differential geometry and random dynamical systems to model semantic traversals in LLMs.</p>
     
     <h3>Definitions</h3>
@@ -26,7 +27,7 @@ title: Research - Interstella Project
   </section>
 
   <section id="geometric" class="mb-5">
-    <h2>Geometric Model</h2>
+    <h2>{{ site.data.i18n[site.lang].pages.research.geometric }}</h2>
     <p>Using Morse theory to identify critical points where topology changes, representing leaps to AGI capabilities.</p>
     <p>The Fisher metric induces a geometry on the parameter space:</p>
     \[ ds^2 = g_{ij} d\theta^i d\theta^j \]
@@ -34,20 +35,20 @@ title: Research - Interstella Project
   </section>
 
   <section id="probabilistic" class="mb-5">
-    <h2>Probabilistic Reachability</h2>
+    <h2>{{ site.data.i18n[site.lang].pages.research.probabilistic }}</h2>
     <p>Modeling token trajectories as random dynamical systems, with uncertainty quantified via entropy.</p>
     <p>Reachability sets defined by:</p>
     \[ \mathcal{R}(x, t) = \{ y \in M \mid \exists \text{ path from } x \text{ to } y \text{ in time } t \} \]
   </section>
 
   <section id="bridge" class="mb-5">
-    <h2>Discrete-Continuous Bridge</h2>
+    <h2>{{ site.data.i18n[site.lang].pages.research.bridge }}</h2>
     <p>Bridging discrete token sequences to continuous manifold traversals using embedding layers and ODE solvers.</p>
     <p>Example: Neural ODE for trajectory generation.</p>
   </section>
 
   <section id="pipeline" class="mb-5">
-    <h2>Engineered Pipeline</h2>
+    <h2>{{ site.data.i18n[site.lang].pages.research.pipeline }}</h2>
     <div class="row">
       <div class="col-md-6">
         <h4>Layer 1: Navigator</h4>

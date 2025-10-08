@@ -1,4 +1,5 @@
 ---
+lang: en
 layout: default
 title: Paper - Interstella Project
 permalink: /paper.html

@@ -2,6 +2,7 @@
 layout: post
 title: "欢迎来到Interstella：穿越Token Cosmos，通往AGI的星际之旅"
 date: 2025-10-08
+lang: zh-CN
 categories: math code ethics
 author: Interstella Team
 ---

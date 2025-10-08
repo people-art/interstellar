@@ -1,15 +1,15 @@
 title: Interstella Project
 description: Exploring AGI through Semantic Traversals in Token Cosmos
-baseurl: ""
-url: "https://interstella.ai-avtar.org"
-theme: minima
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jekyll-paginate
-paginate: 5
-paginate_path: /page:num/
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://interstella.ai-avtar.org" # the base hostname & protocol for your site, e.g. http://example.com
+lang: en
+languages: [ "en", "zh-CN" ]
+default_lang: en
+exclude_from_localization: [ "node_modules", "vendor", ".git", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "CNAME", "assets/images", "assets/css", "assets/js", "_site", "_demos", "sitemap.xml", "feed.xml" ]
+parallel_localization: true
+i18n_headers: true
+
+# Permalink settings for languages
 defaults:
   -
     scope:
@@ -17,17 +17,31 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "Zhang Jialin"
+      lang: "en"
   -
     scope:
       path: ""
       type: "pages"
     values:
-      layout: "page"
-collections:
-  demos:
-    output: true
-    permalink: /demos/:path/
+      layout: "default"
+      lang: "en"
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-polyglot
+
+# Exclude from processing.
+# The following items will not be processed by Jekyll.
+# The `!` prefix indicates that items marked with such a prefix take priority
+# over any other exclusions.
 exclude:
-  - Gemfile
-  - Gemfile.lock
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
