@@ -71,7 +71,7 @@ title: 关于 - Interstella 项目
   <section class="mb-5">
     <h2>{{ site.data.i18n[site.lang].pages.about.contact }}</h2>
     <p>如需合作、问题或反馈，请与我们联系。</p>
-    <form action="https://formspree.io/f/{your-form-id}" method="POST" class="needs-validation" novalidate>
+    <form action="https://formspree.io/f/meozpnja" method="POST" class="needs-validation" novalidate>
       <div class="mb-3">
         <label for="name" class="form-label">姓名</label>
         <input type="text" class="form-control" id="name" name="name" required>
@@ -89,7 +89,7 @@ title: 关于 - Interstella 项目
       </div>
       <button type="submit" class="btn btn-primary">发送消息</button>
     </form>
-    <p class="mt-3 text-muted">注意：将 {your-form-id} 替换为您的 Formspree 端点以实现功能。</p>
+    <p class="mt-3 text-muted">Powered by Formspree – responses sent to project email.</p>
   </section>
 
   <section>

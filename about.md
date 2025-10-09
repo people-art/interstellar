@@ -71,7 +71,7 @@ title: About - Interstella Project
   <section class="mb-5">
     <h2>{{ site.data.i18n[site.lang].pages.about.contact }}</h2>
     <p>For collaborations, questions, or feedback, please get in touch.</p>
-    <form action="https://formspree.io/f/{your-form-id}" method="POST" class="needs-validation" novalidate>
+    <form action="https://formspree.io/f/meozpnja" method="POST" class="needs-validation" novalidate>
       <div class="mb-3">
         <label for="name" class="form-label">Name</label>
         <input type="text" class="form-control" id="name" name="name" required>
@@ -89,7 +89,7 @@ title: About - Interstella Project
       </div>
       <button type="submit" class="btn btn-primary">Send Message</button>
     </form>
-    <p class="mt-3 text-muted">Note: Replace {your-form-id} with your Formspree endpoint to enable functionality.</p>
+    <p class="mt-3 text-muted">Powered by Formspree – responses sent to project email.</p>
   </section>
 
   <section>
